@@ -6,11 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+//===================If conditions==================================================
+
+
+
 //===================String Comparisons=============================================
         String password = "helloHuman";
         System.out.println("Guess passWord: ");
         Scanner input = new Scanner(System.in);
-        String guess = scanner.nextLine();
+        String guess = input.nextLine();
         System.out.println(password.equals(guess)); // make sure you use this for string comparisons, because "==" does not work
 
 

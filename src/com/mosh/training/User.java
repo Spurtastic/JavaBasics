@@ -6,9 +6,11 @@ public class User {
     public String name;
     public String age;
     public String lastName;
+    public String password;
 
     public String getFullName(){
         return name +" "+lastName;
 
     }
+
 }
